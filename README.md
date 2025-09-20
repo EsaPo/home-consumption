@@ -3,7 +3,7 @@ This app is designed for homes and allows you to track your electricity, heat an
 
 This app is created so that there is `node.js` backend by which your data is saved to SQLite database. Frontend is pure html file which communicate with this `node.js` backend.
 
-### How to install
+#### How to install
 
 First you have to clone this repo and go to backend folder. Here you run command `npm install` which install needed files. You can start backend with command `node server.js` in your `backend/db/` folder. 
 
