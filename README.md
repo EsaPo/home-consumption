@@ -5,4 +5,8 @@ This app is created so that there is `node.js` backend by which your data is sav
 
 ### How to install
 
-First you have to clone this repo and go to backend folder. Here you run command `npm install` which install needed files. You can start backend with command `node server.js` in your `backend/db/` folder. After that you go to your frontend folder and install `http-server` with command `npm install http-server`. You can start the `http-server` with command `npx http-server -p 8080`. Next you go to web browser and open IP address e.g http://127.0.0.1:8080' and port which is port number 8080.
+First you have to clone this repo and go to backend folder. Here you run command `npm install` which install needed files. You can start backend with command `node server.js` in your `backend/db/` folder. 
+
+After that you go to your frontend folder and install `http-server` with command `npm install http-server`. You can start the `http-server` with command `npx http-server -p 8080`. You can also set some other web server e.g. Apache, Nginx or caddy etc. to serve your files.
+
+Next you have to go to web browser and open the ip address with port where your files are installed e.g. http://127.0.0.1:8080.
